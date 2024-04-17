@@ -1,0 +1,73 @@
+html {
+    background-image: url("https://ideogram.ai/api/images/direct/Swpk935ASJK5Hy-gBvojoQ.png");
+    background-size: 60%;
+    /* Adjusts the background image size to cover the entire container */
+    background-position: top;
+    /* Centers the background image */
+    background-repeat: no-repeat;
+    /* Prevents the background image from repeating */
+}
+
+.Home-Container {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 200px;
+    left: 36%;
+    transform: rotateX(-2deg);
+    transform: rotateZ(-2deg);
+}
+
+.Home-SnacksList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.Vending-Machine {
+    height: 600px;
+    width: 400px;
+}
+
+.Home-SnacksList>li {
+    display: block;
+    font-size: larger;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.Home-SnacksList>li:hover {
+    text-decoration: underline;
+    color:blueviolet;
+}
+
+.snacks-Image-left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.snacks-Image-left>img {
+    margin: 5px;
+    width: 200px;
+    height: 250px;
+
+}
+
+
+.snacks-Image-right {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.snacks-Image-right>img {
+    margin: 5px;
+    width: 250px;
+    height: 250px;
+}

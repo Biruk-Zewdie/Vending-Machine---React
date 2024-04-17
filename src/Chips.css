@@ -1,0 +1,50 @@
+.Chips {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 210px;
+    left: 36%;
+    transform: rotateZ(-7deg);
+}
+.Chips > a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+
+}
+.Chips> button {
+    margin:5px;
+    padding: 8px 12px; 
+    border: none;
+    background-color: none;
+    transform: rotate(-2deg) ;
+
+}
+.chips-left {
+    position: absolute;
+    top:30%;
+    left:40px;
+    flex-direction: column;
+}
+
+.chips-left>img {
+    margin: 5px;
+    width: 200px;
+    height: 250px;
+
+}
+
+
+.chips-right {
+    position: absolute;
+    top: 30%;
+    right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.chips-right>img {
+    margin: 5px;
+    width: 250px;
+    height: 250px;
+}
